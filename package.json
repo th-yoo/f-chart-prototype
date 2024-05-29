@@ -1,0 +1,22 @@
+{
+  "name": "f-chart-prototype",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "https://github.com/th-yoo/f-chart-prototype.git",
+  "author": "Yoo, Taihyung <th.yoo@brainboot.kr>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit/context": "^1.1.1",
+    "klinecharts": "^9.8.8",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
